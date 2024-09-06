@@ -29,7 +29,7 @@
 <p align="center">
   저희 팀의 목표는 약속 상황의 소소한 불편함을 해결하고, 더 많은 만남과 추억을 만들 수 있도록 돕는 것!
   </br>
-  함께해요 ! 그래서 우리, 언제 만나볼까요? 😉
+  함께해요 ! 그래서 우리, 언제 볼까요? 😉
   </br></br>
   <img src="https://img.shields.io/badge/TEAM-WWWM-27B6E2?style=for-the-badge" alt="TEAM-WWWM">
 </p>
