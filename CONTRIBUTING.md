@@ -1,6 +1,6 @@
 # Contributing to WHEN-WILL-WE-MEET
 
-해당 문서는 프로젝트에 기여하는 방법에 대한 가이드라인을 제공합니다.
+해당 문서는 `언제볼까?` 프로젝트에 기여하는 방법에 대한 가이드라인을 제공합니다.
 
 ## Branch Convention
 ```
@@ -12,7 +12,7 @@
 ```
 
 ## Commit Convention
-#### 커밋 메시지 형식 :
+#### Commit 메시지 형식 :
 ```
 [TYPE]: subject
 
@@ -51,4 +51,74 @@ body (선택사항)
 기존 개발하는 방식에 비해 많이 변경된 경우를 알리기 위한 표시
 또한, 브레이크 체인지가 존재하는 경우 변경내용에 대한 설명을 body에 작성해야 함
 
+#### footer : 
+```
+[FEAT]: 회원가입 및 로그인 기능 추가
+
+SMS, 이메일 중복확인 API 개발
+
+// footer
+Resolves: #123
+Ref: #456
+Related to: #48, #45
+```
+- optional하게 사용하고 이슈 트래커 ID를 작성
+- `"Issue Tracker Type: #Issue 번호"` 형식으로 사용
+- 여러 개의 이슈 번호를 적을 때는 `,`로 구분
+
+#### Issue Tracker Type :
+```
+Fixes: Issue 수정중 (아직 해결되지 않은 경우)
+Resolves: Issue를 해결했을 때 사용
+Ref: 참고할 Issue가 있을 때 사용
+Related to: 해당 커밋에 관련된 Issue 번호 (아직 해결되지 않은 경우)
+```
+
 ## PR Convention
+```
+## 요약(Summary)
+// 작업한 부분에 대한 간단한 요약
+
+## 변경 사항(Changes)
+// 기존과 비교했을 때 해당 PR에서 변경된 내용
+// 어떤 부분을 왜 수정했는지 작성
+
+## 리뷰 요구사항
+// 해당 PR에서 중점적으로 혹은 꼭 리뷰가 필요한 사항들
+// 체크리스트 등 자유 형식으로 작성
+
+## 확인 방법 (선택)
+// 화면 스크린샷, 기능 구동 gif 등 작업 결과를 한 눈에 볼 수 있는 자료
+```
+
+### Issue Template
+```
+---
+name: "Issue Template"
+about: 이슈 생성 시 참고할 템플릿
+title: "[TYPE] 이슈 제목"
+labels: ''
+assignees: ''
+---
+
+## 요약(Summary)
+// 간단하게 현재 해결하고자 하는 문제나 추가 기능 요약
+// 예) 새로운 회원가입 API 명세 정리 및 구현 준비
+
+## 상세설명(Description)
+// 이슈 상세 설명, 필요 시 요구사항, 고려사항, 디자인 목업 등 추가
+// 예) 현재 회원가입 API의 중복 확인 로직이 누락되어 있어 개선이 필요
+
+## 추가사항(Additional Context)
+// 추가하고 싶은 내용이나 참고가 필요한 정보를 작성
+// 외부 API(구글, 페이스북 등) 인증 연동 관련 참고
+
+---
+
+// Commit Convention의 fotter 양식에 따라 작성
+Fixes: #
+Resolves: #
+Ref: #
+Related to: #
+```
+
