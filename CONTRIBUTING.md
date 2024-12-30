@@ -91,7 +91,7 @@ Related to: 해당 커밋에 관련된 Issue 번호 (아직 해결되지 않은 
 // 화면 스크린샷, 기능 구동 gif 등 작업 결과를 한 눈에 볼 수 있는 자료
 ```
 
-### Issue Template
+## Issue Template
 ```
 ---
 name: "Issue Template"
