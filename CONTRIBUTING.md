@@ -115,7 +115,7 @@ assignees: ''
 
 ---
 
-// Commit Convention의 fotter 양식에 따라 작성
+// Commit Convention의 footer 양식에 따라 작성
 Fixes: #
 Resolves: #
 Ref: #
