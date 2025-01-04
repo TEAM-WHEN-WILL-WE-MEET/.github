@@ -93,13 +93,7 @@ Related to: 해당 커밋에 관련된 Issue 번호 (아직 해결되지 않은 
 
 ## Issue Template
 ```
----
-name: "Issue Template"
-about: 이슈 생성 시 참고할 템플릿
-title: "[TYPE] 이슈 제목"
-labels: ''
-assignees: ''
----
+"[TYPE] 이슈 제목"
 
 ## 요약(Summary)
 // 간단하게 현재 해결하고자 하는 문제나 추가 기능 요약
@@ -120,5 +114,16 @@ Fixes: #
 Resolves: #
 Ref: #
 Related to: #
+```
+
+#### Issue Type
+```md
+[INIT]: 프로젝트 초기 세팅, 기본 구조 구축 등에 관한 이슈  
+[FEAT]: 새로운 기능 구현이나 추가 사항에 관한 이슈  
+[UPDATE]: 빌드 스크립트 수정, 기초적인 로직 또는 의존성 업데이트 등에 관한 이슈  
+[FIX]: 버그 수정에 관한 이슈  
+[REFACTOR]: 기존 코드 구조나 로직을 개선하는 리팩토링 이슈  
+[DOCS]: 문서 작업에 관한 이슈  
+[DESIGN]: UI/UX 디자인 및 컴포넌트 수정, 생성 등에 관한 이슈  
 ```
 
