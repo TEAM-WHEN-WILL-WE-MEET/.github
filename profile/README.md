@@ -28,10 +28,7 @@
 ### 현 Production 아키텍처 
 ![image](https://github.com/user-attachments/assets/d9473308-a5a7-4b97-bbe7-5daca375188e)
 
-### Monitoring Infra 아키텍처 (구축 중)
-![image](https://github.com/user-attachments/assets/ee1536c3-2ab0-405f-baf7-de7df6004e2c)
-
-### Private Cloud 아키텍처 (구축 중)
+### Private Cloud 아키텍처 (운영 중)
 ![image](https://github.com/user-attachments/assets/d2be8897-05a5-475f-bee7-8e82b6453da2)
 
 ---
