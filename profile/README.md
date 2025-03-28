@@ -24,16 +24,6 @@
 </br>
 그 경험을 바탕으로 “언제볼까?”가 탄생하게 되었습니다.
 
-## 인프라 아키텍처
-
-
-### Production Architecture Design 
-![image](https://github.com/user-attachments/assets/8efa0c19-407c-48a5-84ea-81a7f81f143d)
-
-### K8s Architecture
-![image](https://github.com/user-attachments/assets/01957d39-f02a-402a-8182-6aa7aa6360fa)
-
-
 ---
 
 <p align="center">
